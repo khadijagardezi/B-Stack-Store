@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/69ebd1fb75.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div class="container1">
+      <!-- logo -->
+      <img src="logo.png" alt="" width="170px" class="logo" />
+      <!-- search bar -->
+      <div class="container2">
+        <div class="search_wrap search_wrap_1">
+          <div class="search_box">
+            <input type="text" class="input" class="form-control" id="search" placeholder="search..." />
+            <div class="btn btn_common">
+              <i class="fas fa-search"></i>
+            </div>
+            <ul class="list-group" id="result"></ul>
+          </div>
+        </div>
+      </div>
+      <!-- sign in/up -->
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#myMenu"
+      >
+        <!-- <span class="navbar-toggler-icon"></span> -->
+      </button>
+      <!-- <div class="collapse navbar-collapse" id="myMenu"></div> -->
+      <div class="account">
+        <a href="signIn.html" target="_blank"
+          ><i class="fas fa-user-circle"></i
+        ></a>
+        <div class="account-sub-menu">
+          <ul class="subMenuAc">
+            <!-- <li><a href="#"><i class="fas fa-user-plus"></i>Sign up</a></li> -->
+            <li><a href="signIn.html" target="_blank"></a></li>
+          </ul>
+        </div>
+      </div>
+      <!--  -->
+    </div>
+    <!-- navbar -->
+    <div class="menu-area">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li>
+          <a href="#">Categories</a>
+          <ul class="dropDown">
+            <li><a href="kidsbooks.html">Kids Books</a></li>
+            <li><a href="novels.html">Novels</a></li>
+            <li><a href="research.html">Sci & Research</a></li>
+            <li><a href="tech.html">Technology</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- slider -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide imgSlider"
+      data-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/Tk-slider1-1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/Tk-slider2-1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="assets/Tk-slider-3-1.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        href="#carouselExampleControls"
+        role="button"
+        data-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="tagline">
+      <h4 id="tagline"><u>A Stack of mindfulness</u></h4>
+    </div>
+
+    <!-- review -->
+
+    <div class="team-area">
+      <a href="#" class="aaa">
+        <span class="single-img img-one">
+          <span class="img-text">
+            <h4 class="heading">Client's Review</h4>
+            <p>
+              I haven’t read a fictional account this heartbreakingly realistic
+              in a long time.
+            </p>
+            <p id="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </p>
+          </span>
+        </span>
+      </a>
+      <!-- 2nd  -->
+
+      <a href="#" class="aaa">
+        <span class="single-img img-two">
+          <span class="img-text">
+            <h4 class="heading">Client's Review</h4>
+            <p>
+              Interesting thoughts about how we drive. Now I don't feel guilty
+              merging at the last minute!
+            </p>
+            <p id="stars">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <!-- <i class="fa fa-half-star"></i> -->
+            </p>
+          </span>
+        </span>
+      </a>
+    </div>
+
+    <div class="new-product">
+      <div class="container3">
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card-img">
+              <img src="obama.jpg" alt="" height="330px">
+            </div>
+          </div>
+          <!-- 2nd -->
+          <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+            <div class="card-info">
+              <div class="card-text">
+                <h1 class="title">A Promised Land</h1>
+                <h5 class="author">Barack Obama</h5>
+                <p class="para">
+                  The 768-page book, “A Promised Land,” will be the first of two
+                  volumes, this one encompassing parts of his early political
+                  life, his presidential campaign in 2008 and ending with the
+                  death of Osama bin Laden in 2011. It will be released around
+                  the world on Nov. 17 in 25 languages, including Spanish,
+                  Chinese, Arabic, Czech, Finnish and Vietnamese.
+                </p>
+                <div class="card-footer">
+                  <p><span>$300</span></p>
+                  <button class="btn-1">Pre-order</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="staffReading">
+      <div class="slider">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="bookCovers/book1.jpg" class="d-block w-100" alt="...">
+                  <a href="#">View More Details</a>
+                </div>
+                <div class="carousel-item">
+                  <img src="bookCovers/book2.jpg" class="d-block w-100" alt="...">
+                  <a href="#">View More Details</a>
+                </div>
+                <div class="carousel-item">
+                  <img src="bookCovers/book3.jpg" class="d-block w-100" alt="...">
+                  <a href="#">View More Details</a>
+                </div>
+                <div class="carousel-item">
+                  <img src="bookCovers/book4.jpg" class="d-block w-100" alt="...">
+                  <a href="#">View More Details</a>
+                </div>
+                <div class="carousel-item">
+                  <img src="bookCovers/book5.jpg" class="d-block w-100" alt="...">
+                  <a href="#">View More Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
+  <div class="staffReading-1">
+      <!--Carousel Wrapper-->
+<div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+
+  <!--First slide-->
+  <div class="carousel-item c-item-u active">
+
+      <div class="row">
+
+      <div class="col-md-4 d-none d-md-block">
+          <div class="card mb-2">
+          <img class="card-img-top" src="bookCovers/book1.jpg"
+              alt="Card image cap">
+          <div class="card-body">
+              <a>View More Details</a>
+          </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 d-none d-md-block">
+          <div class="card mb-2">
+          <img class="card-img-top" src="bookCovers/book2.jpg"
+              alt="Card image cap">
+          <div class="card-body">
+              <a>View More Details</a>
+          </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 d-none d-md-block">
+          <div class="card mb-2">
+          <img class="card-img-top" src="bookCovers/book3.jpg"
+              alt="Card image cap">
+          <div class="card-body">
+              <a>View More Details</a>
+          </div>
+          </div>
+      </div>
+      </div>
+
+  </div>
+  <!--/.First slide-->
+
+  <!--Second slide-->
+  <div class="carousel-item c-item-u">
+
+      <div class="row">
+
+      <div class="col-md-4 d-md-block">
+          <div class="card mb-2">
+          <img class="card-img-top" src="bookCovers/book4.jpg"
+              alt="Card image cap">
+          <div class="card-body">
+              <a>View More Details</a>
+          </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 d-none d-md-block">
+          <div class="card mb-2">
+          <img class="card-img-top" src="bookCovers/book5.jpg"
+              alt="Card image cap">
+          <div class="card-body">
+              <a>View More Details</a>
+          </div>
+          </div>
+      </div>
+
+      <div class="col-md-4 d-none d-md-block">
+          <div class="card mb-2">
+          <img class="card-img-top" src="bookCovers/book1.jpg"
+              alt="Card image cap">
+          <div class="card-body">
+              <a>View More Details</a>
+          </div>
+          </div>
+      </div>
+
+  </div>
+  <!--/.Second slide-->
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+      </div>
+</div>
+</div>
+<div class="quoteSlider">
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+      <div class="carousel-item active">
+          <p>"The greatest glory in living lies not in never falling, but in rising every time we fall." -Nelson Mandela</p>
+      </div>
+      <div class="carousel-item">
+          <p>"The way to get started is to quit talking and begin doing." -Walt Disney</p>
+      </div>
+      <div class="carousel-item">
+          <p>"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma – which is living with the results of other people's thinking." -Steve Jobs</p>
+      </div>
+      <div class="carousel-item">
+          <p>"If life were predictable it would cease to be life, and be without flavor." -Eleanor Roosevelt</p>
+      </div>
+      <div class="carousel-item">
+          <p>"If you look at what you have in life, you'll always have more. If you look at what you don't have in life, you'll never have enough." -Oprah Winfrey</p>
+      </div>
+      <div class="carousel-item">
+          <p>"If you set your goals ridiculously high and it's a failure, you will fail above everyone else's success." -James Cameron</p>
+      </div>
+      <div class="carousel-item">
+          <p>"Life is what happens when you're busy making other plans." -John Lennon</p>
+      </div>
+      <div class="carousel-item">
+          <p>"Spread love everywhere you go. Let no one ever come to you without leaving happier." -Mother Teresa</p>
+      </div>
+      <div class="carousel-item">
+          <p>"When you reach the end of your rope, tie a knot in it and hang on." -Franklin D. Roosevelt</p>
+       </div>
+       </div>
+  </div>
+</div>
+
+<!-- JS, Popper.js, and jQuery -->
+
+<div class="footer-main-div">
+  <div class="footer-section">
+    <div class="books-categories">
+      <div class="books-header">
+        <h1 class="books-sec-heading">Books</h1>
+      </div>
+      <div class="books-types">
+        <ul class="books-categories-footer">
+          <li> <a href="#">Kid's Books</a></li>
+          <li> <a href="#">Novels</a></li>
+          <li> <a href="#">Technology</a></li>
+          <li> <a href="#">Scientific Research</a> </li>
+        </ul>
+      </div>
+      <!-- social media icons -->
+    <div class="footer-social-icons">
+      <ul class="flex-1">
+        <li><a href="#" target="_black"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#" target="_black"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" target="_black"><i class="fa fa-github"></i></a></li>
+        <li><a href="#" target="_black"><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
+    </div>
+
+    <div class="contactUsSect">
+        
+	<header><h1 class="contactUsHeader">Contact Us</h1></header>
+	<!-- "Contact Us" form -->
+	<div class="form" id="main">
+	  <form action=" " class="contactUsForm">
+    <!-- Have not set up PHP form to get data for website mockup, so on "submit" page will refresh and text will clear -->
+    
+    <div class="contactUsSection">
+      <label for="email" class="contactUsLabel"></label>
+		  <input type="text" id="email" name="email" placeholder="Enter Your Email..">
+    </div>
+    <div class="contactUsSection">
+      <label for="message" class="contactUsLabel"></label>
+      <textarea id="message" name="message" placeholder="Enter Your Message or Ask Anything?"></textarea>
+    </div>
+
+		<input id="button" type="submit" value="Submit" class="button" >
+	  </form>
+	</div>
+    </div>
+  </div>
+</div>
+
+
+
+    <!-- Javascript -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

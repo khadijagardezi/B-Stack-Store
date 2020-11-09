@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="signup.css">
+    <script defer src="signup.js"></script>
+    <title>Sign Up Form</title>
+</head>
+
+<body>
+   
+    <div class="background">
+        <div class="signup-form">
+            <form id="myform" action="/" method="GET">
+                <img src="assetss/logo-TK.png" alt="logo" height="130px" class="logo">
+                <p class="hint-text">Create your account. It's free and only takes a minute.</p>
+                <div id="error_msg"></div>
+                <div class="form-group">
+                    <div class="row">
+                        
+                        <div class="col"><input type="text" class="form-control" id="fname" name="first_name" placeholder="First Name"></div>
+                        <div class="col"><input type="text" class="form-control" id="lname" name="last_name" placeholder="Last Name" ></div>
+                    </div>        	
+                </div>
+                <div id="error_msg"></div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                </div>
+                <div id="error"></div>
+                <div class="form-group">
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="confirm_password" placeholder="Confirm Password">
+                </div>        
+                <div class="form-group">
+                    <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of Use</a> &amp; <a href="#">Privacy Policy</a></label>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success btn-lg btn-block">Register Now</button>
+                </div>
+                <div class="text-center">Already have an account? <a href="signIn.html">Sign in</a></div>
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>

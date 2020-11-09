@@ -1,0 +1,104 @@
+
+body {
+    background-image: url('book-background.jpg');
+    /* background-repeat: no-repeat; */
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+.logo {
+    margin-top : -40px;
+    display: flex;
+    justify-content: center;
+    filter: drop-shadow(5px 5px 5px rgba(95, 93, 93, .9)); 
+}
+.signIn {
+    font-weight: 600;
+    color: #708bd2;
+    font-size : 26px;
+    padding-left : 17px;
+    margin-top : -25px;
+}
+
+a {
+    text-decoration: none;
+}
+.form-style {
+    opacity: .92;
+    border-radius: 5px;   
+	width: 500px;
+	padding: 30px;
+	background: #FFFFFF;
+	margin: 50px auto;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+	
+}
+
+.form-style input[type="email"] {
+
+	box-sizing: border-box;
+	outline: none;
+	display: block;
+	width: 100%;
+	padding: 17px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	background: transparent;
+	margin-bottom: 10px;
+	font: 16px Arial, Helvetica, sans-serif;
+	height: 45px;
+}
+.nextBtn {
+    border : none;
+    background : #708bd2;
+    margin-top : 18px;
+    padding: 10px;
+    width : 10rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 3px 3px 3px 3px;
+}
+.nextBtn:hover {
+    color:  #708bd2;
+    background : #333;
+    transition : .5s ease-in;
+
+
+}
+.googleBtn{
+    border : none;
+    background : #4285f4;
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    border-radius: 0 3px 3px 0;
+    
+}
+.googleBtn:hover {
+    color : #4285f4;
+    background : #333;
+    transition : .5s ease-in-out;
+}
+.flex-1 {
+    display: flex;
+    justify-content: center;
+}
+.or{
+    color: grey;
+    font-weight: 300;
+}
+.forPass{
+    color: grey;
+    font-weight: 300;
+}
+
+.dont {
+    color: grey;
+    font-weight: 300;
+    margin-left : 80px;
+
+}
+.signUp {
+    color:  #708bd2;
+    font-weight: 300;   
+}

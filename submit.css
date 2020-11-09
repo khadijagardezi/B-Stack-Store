@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(#708bd2;) */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* css for payment form */
+.container{
+   padding: 5%;
+   margin: 0;
+   max-width: 100%; 
+}
+.checkoutForm{
+    width: 100%;
+    border: 2px solid #0c3ab8;
+    border-radius: 15px;
+    background:#708bd2;
+}
+.headerCheckout{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #0c3ab8;
+}
+.headerCheckout a{
+    color: #0c3ab8;
+    text-decoration: none;
+}
+.coDetails .checkoutHeaderOptions{
+    list-style-type: none;
+    padding: 2%;
+    text-decoration: none;
+}
+
+.coDetails .checkoutHeaderOptions a{
+    font-size: 2em;
+    color:  #fff;
+    text-decoration: none;
+}
+.headerCheckout a:hover{
+    color: #3166fa ;
+    text-decoration: none;
+}
+.coDetails .checkoutHeaderOptions a:hover{
+    color: #eff3ff ;
+    text-decoration: none;
+}
+.necessary{
+    padding: 5px;
+    display: flex;
+    color: white;
+    font-size: 1.1em;
+
+}
+.necessaryShipping{
+    padding: 5px;
+    display: flex;
+    color: white;
+    font-size: 1.1em;
+}
+.necessaryShipping .shippingAddress{
+    margin-top: 10px;
+}
+.necessaryShipping label{
+    width: 100%;
+    padding: 4px;
+    display: flex;
+}
+.necessary label{
+    width: 110px;
+    padding: 4px;
+    display: flex;
+}
+.necessary input,.necessary select{
+    width: 300px;
+    height: 40px;
+}
+.cardsCollection i{
+    font-size: 2em;
+}
+.asterik{
+    color:#0c3ab8 ;
+}
+.horizontalLine{
+    color:#0c3ab8 ;
+    border: 1px solid #0c3ab8;
+    margin-bottom: 25px;
+}
+.buttonNext{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.buttonNext a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonNext i{
+    margin-left: 5px;
+    font-size: 0.8em;
+} 
+.nextBtn{
+    background:#0c3ab8 ;
+    border: none;
+    font-size: 1.3em;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.nextBtn{
+    color: white;
+}
+.nextBtn:hover{
+    text-decoration: none;
+    color: rgb(223, 226, 252);
+}
+.submitStatement{
+    color: white;
+    margin-bottom: 50px;
+}
+#submitButton{
+    margin-bottom: 25px;
+    margin-left: 15px;
+}

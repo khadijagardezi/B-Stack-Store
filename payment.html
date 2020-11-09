@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/69ebd1fb75.js" crossorigin="anonymous"></script>
+
+    <title>payment</title>
+    <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+    <div class="opacityDiv"></div>
+    <div class="container">
+        <div class="headerCheckout">
+            <h1>Step 2</h1>
+            <p><a href="index.html"><i class="fas fa-exchange-alt"></i>    Return to Site</a></p>
+        </div>
+        <div class="checkoutForm">
+            <div class="checkoutHeaderInside">
+                <div class="coDetails">
+                    <ul class="checkoutHeaderOptions">
+                        <li> <a href="payment.html">Payment</a></li>
+                    </ul>
+                </div>
+                <div id="form_wrapper" class="form_wrapper">
+                    <!-- We will add our forms here -->
+                    <form class="billingInfo">
+                        <div class="billingAdd">
+                            <div class="billibgAddInfo">
+                                <div class="necessary">
+                                    <label for="cardsCollection"><p class="asterik">*</p>Accepted Cards</label>
+                                    <div class="cardsCollection">
+                                        <i class="fa fa-cc-visa" style="color:navy;"></i>
+                                        <i class="fa fa-cc-amex" style="color:blue;"></i>
+                                        <i class="fa fa-cc-mastercard" style="color:red;"></i>
+                                        <i class="fa fa-cc-discover" style="color:orange;"></i>
+                                    </div>
+                                </div>
+     
+                                <div class="necessary">
+                                    <label for="cardName"><p class="asterik">*</p>Name on card</label>
+                                    <input type="text" placeholder="Abc Xyz" class="cardName">
+                                </div>
+                                
+                                 <div class="necessary">
+                                    <label for="cardNumber"><p class="asterik">*</p>Credit card number</label>
+                                    <input type="number" placeholder="1111-2222-3333-4444" class="cardNumber">
+                                </div>
+                                 
+                                <div class="necessary">
+                                    <label for="expMonth"><p class="asterik">*</p>Expiry Month</label>
+                                    <input type="text" placeholder="September" class="expMonth">
+                                </div>
+    
+                                 <div class="necessary">
+                                    <label for="expYear"><p class="asterik">*</p>Expiry Year</label>
+                                    <input type="number" placeholder="2025" class="expYear">
+                                </div>
+    
+                                 <div class="necessary">
+                                    <label for="cvv"><p class="asterik">*</p>CVV</label>
+                                    <input type="number" placeholder="000" class="cvv">
+                                </div>
+
+                        </div>  
+                                <div class="necessaryShipping">
+                                    <input type="checkbox" class="shippingAddress">
+                                    <label for="shippingAddress">Shipping address is same as billing address<p class="asterik">*</p></label>
+                                </div>
+                                <div class="necessary">
+                                    <p><p class="asterik">*</p>Required</p>
+                                </div>
+
+                            <hr class="horizontalLine">
+
+                            <div class="buttonNext">
+                                    <a href="submit.html" class="linkform nextBtn">Next<i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        <div class="clear"></div>  
+                    </form>
+                    </div>
+            </div>
+        </div>
+
+
+    </div>
+        <script src="checkout.js"></script>
+</body>
+</html>

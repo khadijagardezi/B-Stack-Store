@@ -1,0 +1,329 @@
+{
+    "items":[
+        {
+            "sys":{ "id" : "1"},
+            "fields":{
+                "image":"updBooks/book2.jpg",
+                "title" : "KROAKER-THE-BULLFROG",
+                "Author" : "Monkey Pen",
+                "Price" : 235
+            }
+        },
+        {
+            "sys":{ "id" : "2"},
+            "fields":{
+                "image":"updBooks/book3.jpg",
+                "title" : "GINGER-THE-GIRAFFE",
+                "Author" : "Monkey Pen",
+                "Price" : 480
+            }
+        },
+        {
+            "sys":{ "id" : "3"},
+            "fields":{
+                "image":"updBooks/book4.jpg", 
+                "title" : "DOING_MY_CHORES",
+                "Author" : "Monkey Pen",
+                "Price" : 200
+            }
+        },
+        {
+            "sys":{ "id" : "4"},
+            "fields":{
+                "image":"updBooks/book5.jpg",
+                "title" : "ABE-THE-SERVICE-DOG",
+                "Author" : "Monkey Pen",
+                "Price" : 140
+            }
+        },
+        {
+            "sys":{ "id" : "5"},
+            "fields":{
+                "image":"updBooks/book6.jpg",
+                "title" : "SUNNY-MEADOWS-WOODLAND-SCHOOL",
+                "Author" : "Monkey Pen",
+                "Price" : 150
+            }
+        },
+        {
+            "sys":{ "id" : "6"},
+            "fields":{
+                "image":"updBooks/book7.jpg",
+                "title" : "TOOTH-FAIRY",
+                "Author" : "Monkey Pen",
+                "Price" : 110
+            }
+        },
+        {
+            "sys":{ "id" : "7"},
+            "fields":{
+                "image":"updBooks/book8.jpg",
+                "title" : "HAMMY-THE-HAMSTER",
+                "Author" : "Monkey Pen",
+                "Price" : 90
+            }
+        },
+        {
+            "sys":{ "id" : "8"},
+            "fields":{
+                "image":"updBooks/book9.jpg",
+                "title" : "THE-CASE-OF-THE-MISSING-SMILE",
+                "Author" : "Monkey Pen",
+                "Price" : 10
+            }
+        },
+        {
+            "sys":{ "id" : "9"},
+            "fields":{
+                "image":"updBooks/book10.jpg",
+                "title" : "THE-DRAGON",
+                "Author" : "Monkey Pen",
+                "Price" : 80
+            }
+        },
+        {
+            "sys":{ "id" : "10"},
+            "fields":{
+                "image":"updBooks/book12.jpg",
+                "title" : "JESSIE-THE-RABBIT",
+                "Author" : "Monkey Pen",
+                "Price" : 80
+            }
+        },
+        {
+            "sys":{ "id" : "11"},
+            "fields":{
+                "image":"updBooks/book12.jpg",
+                "title" : "JESSIE-THE-RABBIT",
+                "Author" : "Monkey Pen",
+                "Price" : 80
+            }
+        },
+        {
+            "sys":{ "id" : "12"},
+            "fields":{
+                "image":"updBooks/book13.jpg",
+                "title" : "DO-YOU-WONDER-WHY-BUGS-ARE-GOOD",
+                "Author" : "Monkey Pen",
+                "Price" : 20
+            }
+        },
+        {
+            "sys":{ "id" : "13"},
+            "fields":{
+                "image":"updBook/book1.jpg",   
+                "title" : "Big Summer",
+                "Author": "JENNIFER WEINER",
+                "Price": 28  
+            }
+          },
+          {
+            "sys":{ "id" : "14"},
+            "fields":{
+                "image":"updBook/book2.jpg",   
+                "title" : "Perfect Tunes",
+                "Author": "EMILY GOULD",
+                "Price": 20
+            }
+          },
+          {
+            "sys":{ "id" : "15"},
+            "fields":{
+                "image":"updBook/book3.jpg",   
+                "title" : "Long Bright River",
+                "Author": "LIZ MOORE",
+                "Price": 80 
+            }
+          },
+          {
+            "sys":{ "id" : "16"},
+            "fields":{
+                "image":"updBook/book4.jpg",   
+                "title" : "Weather",
+                "Author": "JENNY OFFILL",
+                "Price": 30
+            }
+          },
+          {
+            "sys":{ "id" : "17"},
+            "fields":{
+                "image":"updBook/book5.jpg",   
+                "title" : "The Glass Hotel",
+                "Author": "EMILY ST. JOHN MANDEL",
+                "Price": 80
+            } 
+          },
+          {
+            "sys":{ "id" : "18"},
+            "fields":{
+                "image":"updBook/book6.jpg",   
+                "title" : "It's Not All Downhill From Here",
+                "Author": "TERRY MCMILLAN",
+                "Price": 70
+            }
+          },
+          {
+            "sys":{ "id" : "19"},
+            "fields":{
+                "image":"updBook/book7.jpg",   
+                "title" : "Topics of Conversation",
+                "Author": "MIRANDA POPKEY",
+                "Price": 40
+            }
+          },
+          {
+            "sys":{ "id" : "20"},
+            "fields":{
+                "image":"updBook/book8.jpg",   
+                "title" : "A Long Petal of the Sea",
+                "Author": "LIZ MOORE",
+                "Price": 25
+            }
+          },
+          {
+            "sys":{ "id" : "21"},
+            "fields":{
+                "image":"updBook/book9.jpg",   
+                "title" : "The Regrets",
+                "Author": "AMY BONNAFFONS",
+                "Price": 22  
+            }
+          },
+         {
+            "sys":{ "id" : "22"},
+            "fields":{
+                "image":"updBook/book10.jpg",   
+                "title" : "Godshot",
+                "Author": "CHELSEA BIEKER",
+                "Price": 30 
+            } 
+         },
+        {
+            "sys":{ "id" : "23"},
+            "fields":{
+                "image":"updBook/book11.jpg",   
+                "title" : "Tiny Imperfections",
+                "Author": "ALLI FRANK AND ASHA YOUMANS",
+                "Price": 40
+            }
+        },
+        {
+            "sys":{ "id" : "24"},
+            "fields":{
+                "image":"updBook/book12.jpg",   
+                "title" : "Thin Girls",
+                "Author": "DIANA CLARKE",
+                "Price": 80
+            }
+        },
+        {
+            "sys":{ "id" : "25"},
+            "fields":{
+                "image":"img/B1.jpeg", 
+                "title": "Tools And Weapons",
+                "Author": "Brad Smith",
+                "Price": 20
+            }
+        },
+        {
+            "sys":{ "id" : "26"},
+            "fields":{
+                "image":"img/B2.jpeg", 
+                "title":"What Technology Wants",
+                "Author":"Kelvin Kelly",
+                "Price":30
+            }
+        },
+        {
+            "sys":{ "id" : "27"},
+            "fields":{
+                "image":"img/B3.jpeg", 
+                "title":"Ten Billion Tommorows",
+                "Author":"Brian Clegg",
+                "Price":40
+            }
+        },
+        {
+            "sys":{ "id" : "28"},
+            "fields":{
+                "image":"img/B4.jpeg", 
+                "title":"Technology That Will Change The World",
+                "Author":"Butger Vam Santen",
+                "Price":45
+            }
+        },
+        {
+            "sys":{ "id" : "29"},
+            "fields":{
+                "image":"img/B5.jpeg", 
+                "title":"The Trust Technology",
+                "Author":"Mark Muller",
+                "Price":20
+            }
+        },
+        {
+            "sys":{ "id" : "30"},
+            "fields":{
+                "image":"img/B6.jpeg", 
+                "title":"5G Simplified",
+                "Author":"Anil Singh",
+                "Price":30
+            }
+        },
+        {
+            "sys":{ "id" : "31"},
+            "fields":{
+                "image":"img/B7.jpeg", 
+                "title":"American Cosmic",
+                "Author": "D.W Pasulka",
+                "Price":30
+            }
+        },
+        {
+            "sys":{ "id" : "32"},
+            "fields":{
+                "image":"img/B8.jpeg", 
+             "title":"Meaning Technology",
+                "Author":"Arnold Pacey",
+                "Price":40
+            }
+        },
+        {
+            "sys":{ "id" : "33"},
+            "fields":{
+                "image":"img/B9.jpeg", 
+                "title":"New Thinking",
+                "Author":"Dacoco Altrade",
+                "Price":45
+            }
+        },
+        {
+            "sys":{ "id" : "34"},
+            "fields":{
+                "image":"img/B10.jpeg", 
+                "title":"Rise Of The Robots",
+                "Author":"Martin Ford",
+                "Price":30
+            }
+        },
+        {
+            "sys":{ "id" : "35"},
+            "fields":{
+                "image":"img/B11.jpeg", 
+                "title":"Philosophy Of Technology",
+                "Author":"Evan Sellinger",
+                "Price":20
+            }
+        },
+        {
+            "sys":{ "id" : "36"},
+            "fields":{
+                "image":"img/B12.jpeg", 
+                "title":"Innovation And Its Enemies",
+                "Author":"Calestus Juma",
+                "Price":30
+            }
+        }
+
+    ]
+}
